@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Calculadora_Tarea6_Js</title>
+      <link rel="stylesheet" href="archivo.css">
+      <link rel="icon" type="image/x-icon" href="../Tarea 6_ JS/faviconcalcu.ico">
+  </head>
+    
+  <body> 
+
+    <div id="calculadora">
+    
+      <input type="text" id="pantalla"readonly> 
+      <div class="teclas">
+        <input type="button" class="boton" value="7" onclick="addToPantalla('7')">
+        <input type="button" class="boton" value="8" onclick="addToPantalla('8')">
+        <input type="button" class="boton" value="9" onclick="addToPantalla('9')">
+        <input type="button" class="boton" value="/" onclick="addToPantalla('/')">
+        <br> 
+      </div>
+      
+      <input type="button" class="boton" value="4" onclick="addToPantalla('4')">
+      <input type="button" class="boton" value="5" onclick="addToPantalla('5')">
+      <input type="button" class="boton" value="6" onclick="addToPantalla('6')">
+      <input type="button" class="boton" value="*" onclick="addToPantalla('*')">
+      <br>
+      <input type="button" class="boton" value="1" onclick="addToPantalla('1')">
+      <input type="button" class="boton" value="2" onclick="addToPantalla('2')">
+      <input type="button" class="boton" value="3" onclick="addToPantalla('3')">
+      <input type="button" class="boton" value="-" onclick="addToPantalla('-')">
+      <br>
+      <input type="button" class="boton" value="0" onclick="addToPantalla('0')">
+      <input type="button" class="boton" value="." onclick="addToPantalla('.')">
+      <input type="button" class="boton" value="=" onclick="calculate()">
+      <input type="button" class="boton" value="+" onclick="addToPantalla('+')">
+      <br>
+      <input type="button" class="boton" value="C" onclick="clearPantalla()">
+      
+    </div>
+
+      
+       
+
+    <script src="main.js">
+    </script> 
+      
+  </body> 
+
+
+
+
+</html> 

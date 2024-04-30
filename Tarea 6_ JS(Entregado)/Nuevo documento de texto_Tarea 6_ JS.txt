@@ -1,0 +1,65 @@
+<td><div type="button" class="boton">1</div></td>
+          <td><div type="button" class="boton">2</div></td>
+          <td><div type="button" class="boton">3</div></td>
+
+--------------------------------
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+------------------------------------
+<div class="container">
+        <div type="button" class="boton">+</div>
+        <div type="button" class="boton">-</div>
+     
+</div>
+------------------------------------
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 5px;
+  background-color: #21f360;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 30px;
+}
+
+
+----------------------------------------------------------
+
+
+<div class="item11">-</div>
+            <div class="item12">*</div>
+            <div class="item13">/</div>
+            
+            <div class="item0">0</div>
+            <div class="item1">1</div>
+            <div class="item2">2</div>
+            <div class="item3">3</div>  
+            <div class="item4">4</div>
+            <div class="item5">5</div>
+            <div class="item6">6</div>
+            <div class="item7">7</div>
+            <div class="item8">8</div>
+            <div class="item9">9</div>
+            <div class="item14">C</div>
+            <div class="item15">=</div>
